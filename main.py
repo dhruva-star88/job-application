@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from flask_mail import Mail, Message
-import streamlit
 import os
 
 PASSWORD = os.getenv("job_application")
